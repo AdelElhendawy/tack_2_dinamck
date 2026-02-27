@@ -1,0 +1,142 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    /* background-color: #333; */
+    background: linear-gradient(gray , black);
+    color: #fff;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.container {
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    nav ul{
+        display: flex;
+    }
+    li{
+        list-style: none;
+        font-size: 20px;
+        margin: 0 15px;
+    }
+}
+/* main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+    font-size: 50px;
+} */
+main {
+    position: relative;
+}
+main img {
+    width: 100%;
+    height: 88.8vh;
+    /* position: absolute; */
+}
+
+/* main h2,p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+main h2 {
+    font-size: 50px;
+    color: black;
+    margin-left: -95px;
+}
+main p {
+
+} */
+
+a {
+    text-decoration: none;
+    color: #fff;
+        background-color: black;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px blanchedalmond;
+}
+a:focus {
+    color: yellow;
+}
+
+.serves h2 {
+        margin: 75px 39%;
+    font-size: 38px;
+    color: blanchedalmond;
+}
+.parent {
+    display: flex;
+    width: 95%;
+    margin: auto;
+}
+.parent img {
+    width: 430px;
+    height: 427px;
+    margin-left: 35px;
+    border-radius: 5px;
+    box-shadow: 5px 2px 20px black;
+}
+
+.users {
+            position: absolute;
+    left: 32%;
+    top: 35%;
+    background: linear-gradient(gray, black);
+    width: 580px;
+    height: 350px;
+    box-shadow: 26px 3px 27px black;
+    border-radius: 5px;
+}
+
+
+
+.userData {
+    font-size: 100px;
+    margin-left: 70px;
+}
+.users .usData {
+            font-size: 27px;
+    margin-top: 25px;
+    position: relative;
+    left: 107px;
+    color: green;
+}
+.users .usData span {
+    color: blanchedalmond;
+}
+
+
+.error{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.error .er1 {
+    color: #9f1644;
+    font-size: 150px;
+    margin-left: 15px;
+}
+.error .er2 {
+    color: white;
+    font-size: 35px;
+}
+.error .er3{
+    color: black;
+    font-size: 24px;
+    font-style: italic;
+    margin-left: -69px;
+}
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <header>{{>header}}</header>
+
+    <div class="users">
+        <p class="userData">userData :</p>
+        <p class="usData"> <span>Name :</span>  {{name}}</p>
+        <p class="usData"> <span> Age : </span> {{age}}</p>
+        <p class="usData"> <span> City : </span>{{city}}</p>
+        {{!-- <img src={{img1}} alt=""> --}}
+    </div>
+
+</body>
+</html>
