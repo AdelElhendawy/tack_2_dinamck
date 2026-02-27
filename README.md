@@ -1,0 +1,1 @@
+# tack_2_dinamck
